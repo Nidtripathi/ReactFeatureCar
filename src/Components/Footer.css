@@ -1,0 +1,20 @@
+.footer{
+    background-color: black;
+    color:white;
+    height:300px;
+    width:100%;
+    border: none;
+    padding-top: 50px;
+    margin-top: 0px;
+    padding-left:50px;
+}
+.container{
+    line-height:3px;
+}
+.text-reset{
+    text-decoration: none;
+}
+.contactus{
+    line-height: -2px;
+
+}

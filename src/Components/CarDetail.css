@@ -1,0 +1,28 @@
+.grid{
+    display:flex;
+}
+.images{
+    margin-left:40px;
+    width: 100px;
+    /* border:solid black 1px; */
+}
+.image1, .image2 {
+    height:350px;
+    width:490px;
+    /* border:solid black 1px; */
+    margin-left: 90px;
+    margin-top: 30px;
+    margin-bottom:20px;
+}
+.image3, .image4{
+    height: 200px;
+    width:490px;
+    /* border:solid black 1px; */
+    margin-left: 90px;
+    margin-bottom: 50px; 
+}
+.description{
+    width:50px;
+    /* border: solid red 1px; */
+    margin-left: 120px;
+}

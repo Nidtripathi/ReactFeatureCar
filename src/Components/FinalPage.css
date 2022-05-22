@@ -1,0 +1,21 @@
+.successmsg{
+    /* margin-left:160px; */
+    /* align-content: center; */
+    border:solid black 1px;
+    margin-left: 50px;
+    margin-right:50px;
+}
+.summaryimg{
+    border:solid black 1px;
+    display: flex;
+    margin-top:40px;
+    margin-left: 50px;
+    margin-right:50px;
+}
+.overlapping{
+    position:relative;
+}
+.overlay{
+    position: absolute;
+    color: white;
+}

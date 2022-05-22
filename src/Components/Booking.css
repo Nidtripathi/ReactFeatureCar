@@ -1,0 +1,67 @@
+.leftdetail{
+    background-color: #F5F5F5;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 10px;
+    width: 250px;
+    height:500px;
+    /* border:solid red 2px; */
+}
+.rightdetail{
+    background-color: #F5F5F5;
+    margin-top: 20px;
+     margin-left: 20px;
+     margin-right: 20px;
+     width: 600px;
+    height:550px;
+    /* border:solid red 2px; */
+}
+.image2{
+    width:400px;
+    height:300px;
+}
+.carname{
+    margin-top:-100px;
+    margin-left: 20px;
+    /* font-size: large; */
+}
+.desp1{
+    margin-left: 20px;
+    margin-top:10px ;
+}
+.forms{
+    background-color: #F5F5F5;
+    /* border: solid red; */
+    height: 480px;
+    width: 500px;
+    margin-left: 20px;
+  
+}
+.name{
+    
+    margin-top:-350px;
+    width: 300px;
+}
+.number{
+ 
+    margin-top:-200px;
+    width: 300px;
+    margin-left: -299px;
+}
+.custom-select{
+    margin-top:170px;
+    margin-left: -300px;
+    width: 300px;
+    height:40px;
+
+}
+label{
+    margin-bottom:10px
+}
+.checkbox{
+    margin-left:-295px;
+}
+.submitbtn{
+    /* margin-left:10px; */
+    margin-top: 420px;
+}

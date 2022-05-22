@@ -1,0 +1,38 @@
+
+form {
+    background-color:white;
+    width: 700px;
+    height: 44px;
+    border-radius: 5px;
+    display: flex;
+    border: none;
+    flex-direction: row;
+    align-items: center;
+  }
+  input {
+    background-color:white;
+    width: 600px;
+    height: 44px;
+    border-radius: 5px;
+    display: flex;
+    border: none;
+    flex-direction: row;
+    text-align:left;
+  }
+  
+  .button{
+      border: solid black 2px;
+      background-color: #790E22;
+      border: none;
+      padding: 2px;
+      margin:2px;
+      width:85px;
+      align-items: flex-end;
+  }
+  button{
+    background-color: #790E22;
+    border: none;
+    color:white;
+    text-align: center;
+}
+

@@ -1,0 +1,29 @@
+.FeatureCar{
+    font-weight: 400;
+    margin-left: 30px;
+    padding:8px;
+    margin-top: 30px;
+    font-size: large;
+}
+.featurecard-up{
+    /* display:block; */
+    margin:5px;
+}
+header{
+    width:550px;
+    margin-left: 20px;
+    
+}
+#navbarExample01{
+    text-align: left;   
+}
+ul{
+    text-align: left;
+    
+}
+li{
+    text-align: left;
+    margin-left: -40px;
+    margin-right: 60px;
+    
+}

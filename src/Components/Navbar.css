@@ -1,0 +1,24 @@
+.navbar-nav{
+   margin-left:30%;
+   justify-content: space-around;
+   flex-grow:2;
+   display:inline-block;
+   flex-direction: row;
+   padding-left:0;
+   padding-right: 0%;
+}
+/* .nav-item .used-car{
+   display:inline-block;
+   flex-direction: row;
+   flex-shrink:9;
+   flex-wrap: nowrap;
+
+} */
+.navbar-brand{
+    margin-left: 10%;
+}
+.nav-ul{
+   align-items: center;
+   display: flex;
+}
+
