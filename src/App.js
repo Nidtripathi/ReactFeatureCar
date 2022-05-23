@@ -1,7 +1,7 @@
 
 import './App.css';
 import Navbar from './Components/Navbar';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch,Route,Link } from "react-router-dom";
 import Profile from './Components/Profile';
 import Footer from './Components/Footer';
 import NewCar from './Components/NewCar';
@@ -16,25 +16,25 @@ import Xtremecar from './Components/Xtremecar';
 function App() {
   return (
     <div>
-    <Router>
+    <Router>    
     <Navbar />
+   
     <Switch>
         <Route path='/' exact component={Xtremecar} />
-        <Route path='/newcar' exact component={NewCar}></Route>
-        <Route path='/usedcar' exact component={UsedCar}></Route>
-        <Route path='/profile' exact component={Profile}></Route>
+        <Route path='/newcar'  component={NewCar}></Route>
+        <Route path='/usedcar'  component={UsedCar}></Route>
+        <Route path='/profile'  component={Profile}></Route>
         <Route path='/allcars' exact component={FeatureCars}></Route>
         <Route path='/cardetail' exact component={CarDetail}></Route>
         <Route path='/booking' exact component={Booking}></Route>
         <Route path='/finalpage' exact component={FinalPage}></Route>
-       
-
-      </Switch>
+    </Switch>
+   
       <Footer/>
     </Router>
-    
-    
     </div>
+    
+    
   );
 }
 
